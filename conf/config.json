@@ -9,8 +9,8 @@
     "_sessionKey": "MyReallySecretPassword1",
     "_port": __PORT__,
     "_aliasPort": __PORT__,
-    "_redirPort": 80,
-    "_redirAliasPort": 80
+    "_redirPort":  __PORT__,
+    "_redirAliasPort":  __PORT__
   },
   "domains": {
     "": {
