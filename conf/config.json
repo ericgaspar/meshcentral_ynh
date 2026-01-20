@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Ylianst/MeshCentral/master/meshcentral-config-schema.json",
+  "__comment1__": "This is a simple configuration file, all values and sections that start with underscore (_) are ignored. Edit a section and remove the _ in front of the name. Refer to the user's guide for details.",
+  "__comment2__": "See node_modules/meshcentral/sample-config-advanced.json for a more advanced example.",
+  "settings": {
+    "_cert": "__DOMAIN__",
+    "_WANonly": true,
+    "_LANonly": true,
+    "_sessionKey": "MyReallySecretPassword1",
+    "_port": __PORT__,
+    "_aliasPort": __PORT__,
+    "_redirPort": 80,
+    "_redirAliasPort": 80
+  },
+  "domains": {
+    "": {
+      "_title": "MyServer",
+      "_title2": "Servername",
+      "_minify": true,
+      "_newAccounts": true,
+      "_userNameIsEmail": true
+    }
+  }
+}
