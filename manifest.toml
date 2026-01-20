@@ -44,9 +44,9 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-    [resources.sources.main]
-    url = "https://github.com/Ylianst/MeshCentral/archive/refs/tags/1.1.55.tar.gz"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    #[resources.sources.main]
+    #url = "https://github.com/Ylianst/MeshCentral/archive/refs/tags/1.1.55.tar.gz"
+    #sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
 
     autoupdate.strategy = "latest_github_tag"
 
